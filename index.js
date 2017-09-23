@@ -1,12 +1,23 @@
 module.exports = {
+  "heading": [
+    "content",
+    "quotes"
+  ],
   "box": [
     [
       "display",
+      "visibility"
+    ],
+    [
       "position",
+      "z-index",
       "top",
       "right",
       "bottom",
       "left"
+    ],
+    [
+      "box-sizing"
     ],
     [
       "flex",
@@ -48,8 +59,16 @@ module.exports = {
     ],
     [
       "float",
-      "clear",
-      "clip"
+      "clear"
+    ],
+    [
+      "overflow",
+      "overflow-x",
+      "overflow-y"
+    ],
+    [
+      "clip",
+      "zoom"
     ],
     [
       "columns",
@@ -61,10 +80,26 @@ module.exports = {
       "column-width"
     ],
     [
+      "table-layout",
+      "empty-cells",
+      "caption-side",
+      "border-spacing",
+      "border-collapse",
+      "list-style",
+      "list-style-position",
+      "list-style-type",
+      "list-style-image"
+    ]
+  ],
+  "animation": [
+    [
       "transform",
       "transform-box",
       "transform-origin",
-      "transform-style"
+      "transform-style",
+      "backface-visibility",
+      "perspective",
+      "perspective-origin"
     ],
     [
       "transition",
@@ -114,9 +149,19 @@ module.exports = {
       "outline-offset",
       "outline-style",
       "outline-width"
+    ],
+    [
+      "stroke-width",
+      "stroke-linecap",
+      "stroke-dasharray",
+      "stroke-dashoffset",
+      "stroke"
     ]
   ],
   "background": [
+    [
+      "opacity"
+    ],
     [
       "background",
       "background-attachment",
@@ -125,7 +170,9 @@ module.exports = {
       "background-image",
       "background-repeat",
       "background-position",
-      "background-size"
+      "background-size",
+      "box-shadow",
+      "fill"
     ]
   ],
   "text": [
@@ -136,10 +183,17 @@ module.exports = {
       "font",
       "font-family",
       "font-size",
+      "font-size-adjust",
       "font-smoothing",
+      "font-stretch",
       "font-style",
       "font-variant",
       "font-weight"
+    ],
+    [
+      "font-emphasize",
+      "font-emphasize-position",
+      "font-emphasize-style"
     ],
     [
       "letter-spacing",
@@ -148,36 +202,50 @@ module.exports = {
     ],
     [
       "text-align",
+      "text-align-last",
       "text-decoration",
+      "text-decoration-color",
+      "text-decoration-line",
+      "text-decoration-style",
       "text-indent",
+      "text-justify",
       "text-overflow",
+      "text-overflow-ellipsis",
+      "text-overflow-mode",
       "text-rendering",
+      "text-outline",
       "text-shadow",
       "text-transform",
-      "text-wrap"
+      "text-wrap",
+      "word-wrap",
+      "word-break"
     ],
     [
+      "text-emphasis",
+      "text-emphasis-color",
+      "text-emphasis-style",
+      "text-emphasis-position"
+    ],
+    [
+      "vertical-align",
       "white-space",
-      "word-spacing"
+      "word-spacing",
+      "hyphens"
+    ],
+    [
+      "src"
     ]
   ],
   "other": [
     [
-      "border-collapse",
-      "border-spacing",
-      "box-shadow",
-      "caption-side",
-      "content",
+      "tab-size",
+      "counter-reset",
+      "counter-increment",
+      "resize",
       "cursor",
-      "empty-cells",
-      "opacity",
-      "overflow",
-      "quotes",
+      "pointer-events",
       "speak",
-      "table-layout",
-      "vertical-align",
-      "visibility",
-      "z-index"
+      "user-select"
     ]
   ]
 };
