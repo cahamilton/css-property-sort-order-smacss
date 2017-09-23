@@ -103,10 +103,20 @@ module.exports = {
     ],
     [
       "transition",
-      "transition-delay",
-      "transition-duration",
       "transition-property",
-      "transition-timing-function"
+      "transition-duration",
+      "transition-timing-function",
+      "transition-delay"
+    ],
+    [
+      "animation",
+      "animation-name",
+      "animation-duration",
+      "animation-play-state",
+      "animation-timing-function",
+      "animation-delay",
+      "animation-iteration-count",
+      "animation-direction"
     ]
   ],
   "border": [
@@ -245,7 +255,12 @@ module.exports = {
       "cursor",
       "pointer-events",
       "speak",
-      "user-select"
+      "user-select",
+      "nav-index",
+      "nav-up",
+      "nav-right",
+      "nav-down",
+      "nav-left"
     ]
   ]
 };
