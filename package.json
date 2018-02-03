@@ -1,6 +1,6 @@
 {
   "name": "css-property-sort-order-smacss",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "CSS Property Sort Order based on the SMACSS methodogy",
   "main": "index.js",
   "repository": {
