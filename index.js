@@ -70,6 +70,16 @@ module.exports = {
       "max-height"
     ],
     [
+      "block-size",
+      "min-block-size",
+      "max-block-size"
+    ],
+    [
+      "inline-size",
+      "min-inline-size",
+      "max-inline-size"
+    ],
+    [
       "margin",
       "margin-top",
       "margin-right",
@@ -77,11 +87,31 @@ module.exports = {
       "margin-left"
     ],
     [
+      "margin-block",
+      "margin-block-start",
+      "margin-block-end"
+    ],
+    [
+      "margin-inline",
+      "margin-inline-start",
+      "margin-inline-end"
+    ],
+    [
       "padding",
       "padding-top",
       "padding-right",
       "padding-bottom",
       "padding-left"
+    ],
+    [
+      "padding-block",
+      "padding-block-start",
+      "padding-block-end"
+    ],
+    [
+      "padding-inline",
+      "padding-inline-start",
+      "padding-inline-end"
     ],
     [
       "float",
