@@ -11,10 +11,17 @@ module.exports = {
     [
       "position",
       "z-index",
+      "inset",
       "top",
       "right",
       "bottom",
-      "left"
+      "left",
+      "inset-block",
+      "inset-inline",
+      "inset-block-start",
+      "inset-block-end",
+      "inset-inline-start",
+      "inset-inline-end"
     ],
     [
       "box-sizing"
@@ -120,7 +127,9 @@ module.exports = {
     [
       "overflow",
       "overflow-x",
-      "overflow-y"
+      "overflow-y",
+      "overflow-block",
+      "overflow-inline"
     ],
     [
       "clip",
@@ -182,32 +191,60 @@ module.exports = {
       "border-right",
       "border-bottom",
       "border-left",
+      "border-block",
+      "border-inline",
+      "border-block-start",
+      "border-block-end",
+      "border-inline-start",
+      "border-inline-end",
       "border-width",
       "border-top-width",
       "border-right-width",
       "border-bottom-width",
-      "border-left-width"
+      "border-left-width",
+      "border-block-width",
+      "border-inline-width",
+      "border-block-start-width",
+      "border-block-end-width",
+      "border-inline-start-width",
+      "border-inline-end-width"
     ],
     [
       "border-style",
       "border-top-style",
       "border-right-style",
       "border-bottom-style",
-      "border-left-style"
+      "border-left-style",
+      "border-block-style",
+      "border-inline-style",
+      "border-block-start-style",
+      "border-block-end-style",
+      "border-inline-start-style",
+      "border-inline-end-style"
     ],
     [
       "border-radius",
       "border-top-left-radius",
       "border-top-right-radius",
       "border-bottom-right-radius",
-      "border-bottom-left-radius"
+      "border-bottom-left-radius",
+      "border-start-start-radius",
+      "border-start-end-radius",
+      "border-end-start-radius",
+      "border-end-end-radius"
     ],
     [
       "border-color",
       "border-top-color",
       "border-right-color",
       "border-bottom-color",
-      "border-left-color"
+      "border-left-color",
+      "border-block-color",
+      "border-inline-color",
+      "border-block-start-color",
+      "border-block-end-color",
+      "border-inline-start-color",
+      "border-inline-end-color"
     ],
     [
       "outline",
