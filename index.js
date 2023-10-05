@@ -310,6 +310,7 @@ module.exports = {
       "resize",
       "cursor",
       "pointer-events",
+      "touch-action",
       "speak",
       "user-select",
       "nav-index",
