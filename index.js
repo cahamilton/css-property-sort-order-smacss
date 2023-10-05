@@ -127,6 +127,10 @@ module.exports = {
       "zoom"
     ],
     [
+      "object-fit",
+      "object-position"
+    ],
+    [
       "columns",
       "column-gap",
       "column-fill",
