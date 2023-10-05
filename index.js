@@ -123,6 +123,11 @@ module.exports = {
       "overflow-y"
     ],
     [
+      "scrollbar-gutter",
+      "scrollbar-width",
+      "scrollbar-color"
+    ],
+    [
       "clip",
       "zoom"
     ],
