@@ -127,6 +127,10 @@ module.exports = {
       "zoom"
     ],
     [
+      "gap",
+      "row-gap"
+    ]
+    [
       "columns",
       "column-gap",
       "column-fill",
