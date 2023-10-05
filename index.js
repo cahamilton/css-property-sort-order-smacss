@@ -9,6 +9,9 @@ module.exports = {
       "visibility"
     ],
     [
+      "appearance"
+    ],
+    [
       "position",
       "z-index",
       "top",
