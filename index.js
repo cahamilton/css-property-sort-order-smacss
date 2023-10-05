@@ -124,6 +124,7 @@ module.exports = {
     ],
     [
       "clip",
+      "clip-path",
       "zoom"
     ],
     [
