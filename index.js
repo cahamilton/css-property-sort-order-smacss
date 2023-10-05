@@ -123,6 +123,13 @@ module.exports = {
       "overflow-y"
     ],
     [
+      "overscroll-behavior",
+      "overscroll-behavior-x",
+      "overscroll-behavior-y",
+      "overscroll-behavior-block",
+      "overscroll-behavior-inline"
+    ],
+    [
       "clip",
       "zoom"
     ],
