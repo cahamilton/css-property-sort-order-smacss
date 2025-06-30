@@ -1,4 +1,8 @@
-module.exports = {
+type Group = "heading" | "box" | "animation" | "border" | "background" | "text" | "other";
+type Properties = Array<string>;
+type Config = Record<Group, Array<Properties> | Properties>;
+
+const config = {
   "heading": [
     "content",
     "quotes"
@@ -319,4 +323,6 @@ module.exports = {
       "nav-left"
     ]
   ]
-};
+} satisfies Config;
+
+export default config;

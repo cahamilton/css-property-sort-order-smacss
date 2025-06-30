@@ -2,10 +2,21 @@
   "name": "css-property-sort-order-smacss",
   "version": "2.2.0",
   "description": "CSS Property Sort Order based on the SMACSS methodology",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "index.js"
+    "dist"
   ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "clean": "rm -rfv dist/",
+    "build": "tsc",
+    "prebuild": "npm run clean",
+    "prepack": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cahamilton/css-property-sort-order-smacss.git"
@@ -16,7 +27,7 @@
     "Scalable and Modular Architecture for CSS",
     "CSS Property Sort Order"
   ],
-  "author": "Carl Hamilton <info@carlhamilton.co.uk>",
+  "author": "Carl Hamilton <github@carlhamilton.dev>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cahamilton/css-property-sort-order-smacss/issues"
